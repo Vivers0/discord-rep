@@ -1,0 +1,21 @@
+{
+  "name": "discord-rep",
+  "version": "1.0.0",
+  "description": "This library will help you easily create a simple reputation system for your discord server.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": ["discord", "rep", "discord-rep", "reputation", "discord.js", "mongo", "mongoose"],
+  "author": "Vivers",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrAugu/discord-xp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrAugu/discord-xp/issues"
+  },
+  "homepage": "https://github.com/MrAugu/discord-xp#readme"
+}
