@@ -1,6 +1,6 @@
 {
   "name": "discord-rep",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This library will help you easily create a simple reputation system for your discord server.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrAugu/discord-xp.git"
+    "url": "git+https://github.com/Vivers0/discord-rep.git"
   },
   "bugs": {
-    "url": "https://github.com/MrAugu/discord-xp/issues"
+    "url": "https://github.com/Vivers0/discord-rep/issues"
   },
-  "homepage": "https://github.com/MrAugu/discord-xp#readme"
+  "homepage": "https://github.com/Vivers0/discord-rep#readme"
 }

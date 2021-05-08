@@ -51,4 +51,12 @@ DiscordRep.prototype.delete = async function(userID, guildID) {
   return user; 
 }
 
+/**
+  * @param {string} [guildID] - Discord guild id.
+  */
+DiscordRep.prototype.leaderboard = async function(guildID) {
+  this.array = await this.base.find({ guildID })
+  return this.array.sort((a, b) => b.rep - a.rep)
+}
+
 module.exports = DiscordRep

@@ -3,5 +3,6 @@ declare module "discord-rep" {
       static connect(url: string): Promise<typeof import("mongoose")>;
       static add(userID: string, guildID: string): Promise<User>;
       static delete(userID: string, guildID: string): Promise<User>;
+      static leaderboard(guildID: string): Promise<User>;
     }
 }
